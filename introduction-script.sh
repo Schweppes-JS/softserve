@@ -5,7 +5,7 @@ lsb_release -a
 echo "_______________________"
 
 echo "Bash Users"
-grep '/bash' /etc/passwd | cut -d: f1
+grep '/bash' /etc/passwd | cut -d: -f1
 echo "_______________________"
 
 echo "Open Ports:"
